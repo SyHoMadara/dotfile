@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.TextEditor.desktop" score="9" last-seen="1757913966"/>
+    <application id="org.gnome.SystemMonitor.desktop" score="8" last-seen="1757914514"/>
+    <application id="dev.zed.Zed.desktop" score="2841.125" last-seen="1757468101"/>
+    <application id="google-chrome-canary.desktop" score="13036.875" last-seen="1757699351"/>
+    <application id="Alacritty.desktop" score="371" last-seen="1757915252"/>
+    <application id="firefox.desktop" score="5110.5" last-seen="1757916705"/>
+    <application id="org.gnome.tweaks.desktop" score="30" last-seen="1757916506"/>
+    <application id="chromium.desktop" score="206" last-seen="1757691577"/>
+    <application id="org.wireshark.Wireshark.desktop" score="63" last-seen="1757626057"/>
+    <application id="vlc.desktop" score="531" last-seen="1757691890"/>
+    <application id="org.gnome.Terminal.Preferences.desktop" score="20" last-seen="1757898449"/>
+    <application id="code.desktop" score="889.5" last-seen="1757654650"/>
+    <application id="virtualbox.desktop" score="23.5" last-seen="1757626090"/>
+    <application id="st.desktop" score="5" last-seen="1757898042"/>
+    <application id="org.gnome.Console.desktop" score="17" last-seen="1757911899"/>
+    <application id="org.gnome.Settings.desktop" score="73" last-seen="1757908197"/>
+    <application id="org.telegram.desktop._a59d503efdc57ed94233755e5caa17b7.desktop" score="3411.375" last-seen="1757914283"/>
+    <application id="org.gnome.Calculator.desktop" score="28" last-seen="1757628234"/>
+    <application id="org.gnome.Extensions.desktop" score="108" last-seen="1757916699"/>
+    <application id="libreoffice-writer.desktop" score="6" last-seen="1757536677"/>
+    <application id="org.gnome.Loupe.desktop" score="4.5" last-seen="1757906343"/>
+    <application id="org.gnome.Shell.Extensions.desktop" score="42" last-seen="1757916044"/>
+    <application id="org.gnome.Terminal.desktop" score="25535.761848449707" last-seen="1757912674"/>
+    <application id="youtube-music.desktop" score="99" last-seen="1757893967"/>
+    <application id="org.gnome.Nautilus.desktop" score="406.25007438659668" last-seen="1757916707"/>
+    <application id="org.gnome.FileRoller.desktop" score="10" last-seen="1757897842"/>
+    <application id="org.gnome.Evince.desktop" score="1675.5" last-seen="1757536629"/>
+    <application id="texstudio.desktop" score="0" last-seen="1757877102"/>
+    <application id="org.gnome.Totem.desktop" score="1" last-seen="1757631535"/>
+    <application id="org.gnome.clocks.desktop" score="0" last-seen="1757552864"/>
+    <application id="org.gnome.Builder.desktop" score="0" last-seen="1757910516"/>
+    <application id="yelp.desktop" score="0" last-seen="1757631979"/>
+  </context>
+</application-state>
