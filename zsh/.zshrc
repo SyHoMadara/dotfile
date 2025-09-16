@@ -9,6 +9,8 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 
+alias "acivevenv"="source /home/hosein/venv/hosein/bin/activate"
+
 
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -122,6 +124,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 
 alias urr="uv run manage.py runserver"
 alias ur="uv run"
@@ -130,9 +133,10 @@ alias ua="proxychains4 uv add"
 alias gcl="proxychains4 git clone"
 alias ibf="isort --profile=black .; ruff check . --fix; ruff format .; black ."
 alias px="proxychains4"
-export PATH="$HOME/.bun/bin:$HOME/.local/bin:$PATH"
+export PATH="/home/hosein/.bun/bin:$HOME/.local/bin:$PATH"
 
 
+alias "dc"="docker"
 alias "vi"="nvim"
 #alias "cat"="bat"
 alias "open=xdg-open"
@@ -141,3 +145,18 @@ alias "ll"="ls -ltrh"
 # trun off bell sound 
 
 setopt NO_BEEP
+
+## setting proxy
+alias "setproxy"="export HTTP_PROXY=http://127.0.0.1:2080;export HTTPS_PROXY=http://127.0.0.1:2080;export http_proxy=http://127.0.0.1:2080;export https_proxy=http://127.0.0.1:2080"
+alias "unsetproxy"="unset HTTP_PROXY;unset HTTPS_PROXY;unset http_proxy;unset https_proxy"
+if [[ "$(gsettings get org.gnome.system.proxy mode)" == "'manual'" ]]; then
+   setproxy; 
+fi
+
+# BEGIN opam configuration
+# This is useful if you're using opam as it adds:
+#   - the correct directories to the PATH
+#   - auto-completion for the opam binary
+# This section can be safely removed at any time if needed.
+[[ ! -r '/home/hosein/.opam/opam-init/init.zsh' ]] || source '/home/hosein/.opam/opam-init/init.zsh' > /dev/null 2> /dev/null
+# END opam configuration
