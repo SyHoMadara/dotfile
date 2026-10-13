@@ -1,0 +1,14 @@
+[General]
+ConfigVersion=1
+
+[UiSettings]
+ColorScheme=BreezeDark
+
+[Desktop Entry]
+DefaultProfile=Syhomadara.profile
+
+[MainWindow]
+MenuBar=Disabled
+
+[MainWindow][Toolbar mainToolBar]
+Visible=false
